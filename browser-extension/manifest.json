@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Stock Analyst 反哺",
+  "version": "1.2",
+  "description": "DeepSeek 网页版 AI 分析一键反哺到 Stock Analyst 本地系统",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:8000/*", "http://127.0.0.1:8000/*", "https://chat.deepseek.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

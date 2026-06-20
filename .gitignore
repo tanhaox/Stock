@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+.next/
+.cache/
+*.tsbuildinfo
+
+# ===== 敏感信息（最高优先级）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ===== 数据 / 数据库 =====
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+data/cache/
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+models/*.pt
+models/*.onnx
+models/checkpoints/
+
+# ===== 日志 =====
+logs/
+*.log
+*.log.*
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 项目特定 =====
+backend/models/*.joblib
+backend/data/
+backend/scripts/__pycache__/

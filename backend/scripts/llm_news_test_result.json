@@ -1,0 +1,532 @@
+{
+  "events": [
+    {
+      "ts_code": null,
+      "category": "commodity",
+      "direction": "bearish",
+      "scores": {
+        "materiality": "5",
+        "immediacy": "5",
+        "certainty": "4",
+        "scope": "5"
+      },
+      "composite_impact": "4.8",
+      "title": "美伊协议草案推动油价暴跌",
+      "summary": "美伊谈判进展及协议草案导致国际原油价格大幅下跌，布伦特跌超6%。",
+      "related_sectors": [
+        "石油石化",
+        "航空运输",
+        "化工"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "commodity",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "4",
+        "immediacy": "4",
+        "certainty": "3",
+        "scope": "4"
+      },
+      "composite_impact": "3.8",
+      "title": "几内亚计划实施铝土矿出口管制",
+      "summary": "全球最大铝土矿生产国几内亚计划下月宣布出口管控措施，以提振价格。",
+      "related_sectors": [
+        "有色金属",
+        "铝"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "commodity",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "3.0",
+      "title": "铂金需求增长预期提振价格",
+      "summary": "WPIC预计到2030年氢能经济相关铂金需求增长至约40万盎司。",
+      "related_sectors": [
+        "贵金属",
+        "氢能"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "commodity",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "3.0",
+      "title": "焦煤焦炭夜盘大涨",
+      "summary": "焦煤夜盘收涨约9%，焦炭涨约5.1%，受供给端预期影响。",
+      "related_sectors": [
+        "煤炭",
+        "钢铁"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "4",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "4"
+      },
+      "composite_impact": "3.8",
+      "title": "6G试验频率正式获批",
+      "summary": "我国成为全球首个批复6G试验频率的国家，6G有望2030年前商用。",
+      "related_sectors": [
+        "通信",
+        "半导体",
+        "电子"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "4",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "4"
+      },
+      "composite_impact": "3.8",
+      "title": "新型电网投资预计超5万亿元",
+      "summary": "十五五时期我国新型电网投资预计将超过5万亿元。",
+      "related_sectors": [
+        "电力设备",
+        "电网",
+        "新能源"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "3.0",
+      "title": "广东战新引导基金启动",
+      "summary": "广东省战略性新兴产业投资引导基金计划总规模1000亿元，首期500亿元。",
+      "related_sectors": [
+        "创投",
+        "半导体",
+        "新能源"
+      ]
+    },
+    {
+      "ts_code": "300209.SZ",
+      "category": "company",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.0",
+      "title": "行云科技签3.22亿元SSD合同",
+      "summary": "子公司行云存算与浙江甚湖签署企业级SSD硬盘销售框架协议。",
+      "related_sectors": [
+        "半导体",
+        "存储"
+      ]
+    },
+    {
+      "ts_code": "301050.SZ",
+      "category": "company",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "4",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.3",
+      "title": "雷电微力签4.43亿元天线合同",
+      "summary": "与客户签订阵列天线产品订货合同，占2025年营收59.8%。",
+      "related_sectors": [
+        "军工",
+        "电子"
+      ]
+    },
+    {
+      "ts_code": "300054.SZ",
+      "category": "company",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.0",
+      "title": "鼎龙股份CMP抛光液获突破",
+      "summary": "子公司鼎泽新材料在CMP抛光液领域取得多项突破，获批量订单。",
+      "related_sectors": [
+        "半导体",
+        "化工"
+      ]
+    },
+    {
+      "ts_code": "600770.SH",
+      "category": "company",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "2",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "1"
+      },
+      "composite_impact": "2.5",
+      "title": "综艺股份控股股东拟增持",
+      "summary": "控股股东综艺投资拟增持5000万至1亿元，提振信心。",
+      "related_sectors": [
+        "综合"
+      ]
+    },
+    {
+      "ts_code": "300550.SZ",
+      "category": "company",
+      "direction": "neutral",
+      "scores": {
+        "materiality": "4",
+        "immediacy": "4",
+        "certainty": "3",
+        "scope": "2"
+      },
+      "composite_impact": "3.3",
+      "title": "和仁科技筹划控制权变更停牌",
+      "summary": "控股股东及大股东筹划控制权变更，股票停牌不超过2交易日。",
+      "related_sectors": [
+        "医疗信息化"
+      ]
+    },
+    {
+      "ts_code": "000636.SZ",
+      "category": "company",
+      "direction": "neutral",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.0",
+      "title": "风华高科澄清未与英伟达合作",
+      "summary": "公司未与英伟达直接合作，MLCC高端产品占比约15%。",
+      "related_sectors": [
+        "电子",
+        "半导体"
+      ]
+    },
+    {
+      "ts_code": "002297.SZ",
+      "category": "company",
+      "direction": "bearish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.0",
+      "title": "博云新材澄清商业航天传言不实",
+      "summary": "未与蓝箭航天签协议，商业航天收入占比不足1%。",
+      "related_sectors": [
+        "军工",
+        "商业航天"
+      ]
+    },
+    {
+      "ts_code": "002938.SZ",
+      "category": "company",
+      "direction": "neutral",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "2"
+      },
+      "composite_impact": "3.0",
+      "title": "鹏鼎控股光模块业务占比小",
+      "summary": "光模块业务2025年营收占比0.58%，对业绩影响有限。",
+      "related_sectors": [
+        "电子",
+        "光模块"
+      ]
+    },
+    {
+      "ts_code": "300316.SZ",
+      "category": "company",
+      "direction": "bearish",
+      "scores": {
+        "materiality": "2",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "1"
+      },
+      "composite_impact": "2.5",
+      "title": "晶盛机电实控人拟减持",
+      "summary": "实际控制人邱敏秀计划减持不超过0.73%股份。",
+      "related_sectors": [
+        "光伏设备"
+      ]
+    },
+    {
+      "ts_code": "000810.SZ",
+      "category": "company",
+      "direction": "bearish",
+      "scores": {
+        "materiality": "2",
+        "immediacy": "3",
+        "certainty": "4",
+        "scope": "1"
+      },
+      "composite_impact": "2.5",
+      "title": "创维数字董事长拟减持",
+      "summary": "董事长施驰拟减持不超过0.5999%股份。",
+      "related_sectors": [
+        "家电",
+        "电子"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "2",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "2.8",
+      "title": "白羽鸡养殖行业高景气",
+      "summary": "白羽鸡养殖利润较好，鸡苗价格处于年内高点。",
+      "related_sectors": [
+        "养殖",
+        "农业"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "2",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "2.8",
+      "title": "天然橡胶价格大涨",
+      "summary": "天然橡胶价格处于近两年高位，供需缺口及极端天气预期推动。",
+      "related_sectors": [
+        "橡胶",
+        "化工"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "2",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "2.8",
+      "title": "OLED面板出货面积持续增长",
+      "summary": "2025-2030年全球OLED面板出货面积复合增速约5.6%。",
+      "related_sectors": [
+        "OLED",
+        "电子"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "industry",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "2",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "2.8",
+      "title": "AI引爆亚洲能源投资超级周期",
+      "summary": "大摩预计亚洲进入超5.5万亿美元能源投资超级周期。",
+      "related_sectors": [
+        "电力",
+        "新能源",
+        "AI"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "macro",
+      "direction": "bullish",
+      "scores": {
+        "materiality": "3",
+        "immediacy": "3",
+        "certainty": "3",
+        "scope": "4"
+      },
+      "composite_impact": "3.3",
+      "title": "欧洲股市集体大涨",
+      "summary": "欧洲主要股指收盘集体大涨，德国DAX涨2.15%。",
+      "related_sectors": [
+        "金融",
+        "科技"
+      ]
+    },
+    {
+      "ts_code": null,
+      "category": "macro",
+      "direction": "neutral",
+      "scores": {
+        "materiality": "2",
+        "immediacy": "2",
+        "certainty": "3",
+        "scope": "3"
+      },
+      "composite_impact": "2.5",
+      "title": "英国打破五月高温纪录",
+      "summary": "伦敦气温达33.5摄氏度，打破英国5月单日高温纪录。",
+      "related_sectors": [
+        "电力",
+        "农业"
+      ]
+    }
+  ],
+  "sector_impacts": [
+    {
+      "sector": "石油石化",
+      "direction": "bearish",
+      "composite_impact": "4.5",
+      "drivers": [
+        "美伊协议草案推动油价暴跌"
+      ],
+      "prediction": "油价短期承压，关注协议进展"
+    },
+    {
+      "sector": "有色金属",
+      "direction": "bullish",
+      "composite_impact": "3.5",
+      "drivers": [
+        "几内亚计划实施铝土矿出口管制"
+      ],
+      "prediction": "铝土矿供给收缩预期提振铝价"
+    },
+    {
+      "sector": "煤炭",
+      "direction": "bullish",
+      "composite_impact": "3.5",
+      "drivers": [
+        "焦煤焦炭夜盘大涨"
+      ],
+      "prediction": "供给端预期推动焦煤焦炭价格"
+    },
+    {
+      "sector": "通信",
+      "direction": "bullish",
+      "composite_impact": "3.5",
+      "drivers": [
+        "6G试验频率正式获批"
+      ],
+      "prediction": "6G商用进程加速，利好产业链"
+    },
+    {
+      "sector": "电力设备",
+      "direction": "bullish",
+      "composite_impact": "3.5",
+      "drivers": [
+        "新型电网投资预计超5万亿元"
+      ],
+      "prediction": "电网投资高增长，利好电力设备"
+    },
+    {
+      "sector": "半导体",
+      "direction": "bullish",
+      "composite_impact": "3.0",
+      "drivers": [
+        "行云科技签3.22亿元SSD合同",
+        "鼎龙股份CMP抛光液获突破"
+      ],
+      "prediction": "国产替代加速，关注存储和材料"
+    },
+    {
+      "sector": "军工",
+      "direction": "bullish",
+      "composite_impact": "3.0",
+      "drivers": [
+        "雷电微力签4.43亿元天线合同"
+      ],
+      "prediction": "军工订单落地，利好相关企业"
+    },
+    {
+      "sector": "养殖",
+      "direction": "bullish",
+      "composite_impact": "2.5",
+      "drivers": [
+        "白羽鸡养殖行业高景气"
+      ],
+      "prediction": "鸡苗价格高位，养殖利润较好"
+    },
+    {
+      "sector": "橡胶",
+      "direction": "bullish",
+      "composite_impact": "2.5",
+      "drivers": [
+        "天然橡胶价格大涨"
+      ],
+      "prediction": "供需缺口支撑橡胶价格高位"
+    },
+    {
+      "sector": "OLED",
+      "direction": "bullish",
+      "composite_impact": "2.5",
+      "drivers": [
+        "OLED面板出货面积持续增长"
+      ],
+      "prediction": "中尺寸需求带动OLED增长"
+    },
+    {
+      "sector": "新能源",
+      "direction": "bullish",
+      "composite_impact": "2.5",
+      "drivers": [
+        "AI引爆亚洲能源投资超级周期"
+      ],
+      "prediction": "AI数据中心驱动能源投资增长"
+    },
+    {
+      "sector": "金融",
+      "direction": "bullish",
+      "composite_impact": "2.5",
+      "drivers": [
+        "欧洲股市集体大涨"
+      ],
+      "prediction": "市场情绪改善，金融板块受益"
+    }
+  ],
+  "macro_summary": "美伊谈判进展推动油价暴跌，欧洲股市大涨；国内6G、电网投资等政策利好产业升级。"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 260px; padding: 16px; font-family: system-ui; background: #0b0e14; color: #c9d1d9; font-size: 13px; }
+    h2 { font-size: 15px; margin-bottom: 10px; color: #6366f1; }
+    p { color: #6e7a8a; font-size: 11px; line-height: 1.6; margin-bottom: 8px; }
+    code { background: #161b27; padding: 1px 5px; border-radius: 3px; font-size: 11px; color: #06b6d4; }
+    .status { display: flex; align-items: center; gap: 6px; margin-top: 10px; padding: 8px; background: #161b27; border-radius: 6px; font-size: 11px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .dot.on { background: #10b981; }
+    .dot.off { background: #ef4444; }
+  </style>
+</head>
+<body>
+  <h2>📤 Stock Analyst 反哺</h2>
+  <p>在 DeepSeek 网页版 <code>chat.deepseek.com</code> 页面，左下角会出现「📤 反哺 Stock Analyst」按钮。</p>
+  <p>点击按钮 → 确认股票代码 → 自动提取分析文本并发送到本地系统。</p>
+  <div class="status">
+    <span class="dot on" id="dot"></span>
+    <span id="status-text">检查后端连接...</span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

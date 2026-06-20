@@ -1,0 +1,132 @@
+/* Stock Analyst 反哺按钮样式 */
+.sa-feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 6px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid #6366f1;
+  background: rgba(99, 102, 241, 0.08);
+  color: #818cf8;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.sa-feedback-btn:hover {
+  background: rgba(99, 102, 241, 0.18);
+  color: #a5b4fc;
+  border-color: #818cf8;
+}
+.sa-feedback-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sa-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 2147483647;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  font-family: system-ui, -apple-system, sans-serif;
+  animation: saSlideIn 0.25s ease-out;
+}
+.sa-toast.success { background: #10b981; }
+.sa-toast.error { background: #ef4444; }
+
+@keyframes saSlideIn {
+  from { transform: translateY(16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.sa-stock-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2147483646;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.sa-stock-dialog {
+  background: #1e1e2e;
+  border: 1px solid #313244;
+  border-radius: 12px;
+  padding: 20px 24px;
+  min-width: 320px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  color: #cdd6f4;
+}
+.sa-stock-dialog h3 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  color: #cdd6f4;
+}
+.sa-stock-dialog input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #45475a;
+  background: #313244;
+  color: #cdd6f4;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+.sa-stock-dialog .sa-hint {
+  font-size: 11px;
+  color: #6c7086;
+  margin-bottom: 12px;
+}
+.sa-stock-dialog .sa-detected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.sa-stock-dialog .sa-chip {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.sa-stock-dialog .sa-chip:hover {
+  border-color: #6366f1;
+}
+.sa-stock-dialog .sa-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.sa-stock-dialog button {
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sa-stock-dialog .sa-cancel {
+  background: #45475a;
+  color: #cdd6f4;
+}
+.sa-stock-dialog .sa-confirm {
+  background: #6366f1;
+  color: #fff;
+}
+.sa-stock-dialog .sa-confirm:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

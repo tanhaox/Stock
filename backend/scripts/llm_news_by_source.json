@@ -1,0 +1,17 @@
+{
+  "fenghuang": {
+    "events": 68,
+    "sectors": 22,
+    "with_code": 28
+  },
+  "jinrongjie": {
+    "events": 21,
+    "sectors": 6,
+    "with_code": 13
+  },
+  "sina": {
+    "events": 30,
+    "sectors": 10,
+    "with_code": 22
+  }
+}
